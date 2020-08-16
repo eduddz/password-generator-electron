@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <title>Password Generator</title>
+</head>
+<body>
+    <h1>Password Generator</h1>
+
+    <div class="content">
+        How many characters? 0 to 48
+        <input type="number" id="password" min="0" maxlength="48" autofocus />
+    </div>
+
+    <div class="content-button">
+        <button onclick="generatePassword()">Generate Password</button>
+    </div>
+
+    <div>
+        <span id="newPassword"></span>
+    </div>
+
+    <script src="./src/script.js"></script>
+</body>
+</html>
